@@ -1,0 +1,231 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="https://github.com/cliffore/lariat1/lassoing.owl"
+         xmlns="https://github.com/cliffore/lariat1/lassoing.owl#">
+
+<owl:Ontology rdf:about="https://github.com/cliffore/lariat1/lassoing.owl"/>
+
+<owl:ObjectProperty rdf:about="#formsColon">
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="#Colon"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#evokesRhetoricalFigure">
+  <rdfs:domain rdf:resource="#Colon"/>
+  <rdfs:range rdf:resource="#RhetoricalFigure"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasRhetoricalFigure">
+  <rdfs:domain rdf:resource="#Doc"/>
+  <rdfs:range rdf:resource="#RhetoricalFigure"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasSentence">
+  <rdfs:domain rdf:resource="#Doc"/>
+  <rdfs:range rdf:resource="#Sentence"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasFirstSentence">
+  <rdfs:domain rdf:resource="#Doc"/>
+  <rdfs:range rdf:resource="#Sentence"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasLastSentence">
+  <rdfs:domain rdf:resource="#Doc"/>
+  <rdfs:range rdf:resource="#Sentence"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasNextSentence">
+  <rdfs:domain rdf:resource="#Sentence"/>
+  <rdfs:range rdf:resource="#Sentence"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasPreviousSentence">
+  <rdfs:domain rdf:resource="#Sentence"/>
+  <rdfs:range rdf:resource="#Sentence"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasWord">
+  <rdfs:domain rdf:resource="#Sentence"/>
+  <rdfs:range rdf:resource="#Word"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasFirstWord">
+  <rdfs:domain rdf:resource="#Sentence"/>
+  <rdfs:range rdf:resource="#Word"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasLastWord">
+  <rdfs:domain rdf:resource="#Sentence"/>
+  <rdfs:range rdf:resource="#Word"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasNextWord">
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="#Word"/>
+</owl:ObjectProperty>
+
+<owl:ObjectProperty rdf:about="#hasPreviousWord">
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="#Word"/>
+</owl:ObjectProperty>
+
+<owl:DatatypeProperty rdf:about="#hasString">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasLength">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasFirstCharacter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasLastCharacter">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasWordSentimentNeg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasWordSentimentNeu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasWordSentimentPos">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasWordSentimentCompound">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasSentenceSentimentNeg">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Sentence"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasSentenceSentimentNeu">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Sentence"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasSentenceSentimentPos">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Sentence"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasSentenceSentimentCompound">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Sentence"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasFigureType">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#RhetoricalFigure"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasNamedEntity">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasPartOfSpeech">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Word"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasSentenceSentiment">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Sentence"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasUserId">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Doc"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasUserJob">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Doc"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:DatatypeProperty rdf:about="#hasOntologyModel">
+  <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+  <rdfs:domain rdf:resource="#Doc"/>
+  <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+</owl:DatatypeProperty>
+
+<owl:Class rdf:about="#Doc">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Word">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Sentence">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Colon">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#WordNot">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#WordUn">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Adjectival">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#RhetoricalFigure">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Epanaphora">
+  <rdfs:subClassOf rdf:resource="#RhetoricalFigure"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Litotes">
+  <rdfs:subClassOf rdf:resource="#RhetoricalFigure"/>
+</owl:Class>
+
+
+</rdf:RDF>
