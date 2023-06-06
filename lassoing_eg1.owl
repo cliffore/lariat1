@@ -1,0 +1,1240 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#"
+     xml:base="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:lasso="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#evokesRhetoricalFigure -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#evokesRhetoricalFigure">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Colon"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#RhetoricalFigure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#formsColon -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#formsColon">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Colon"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasAdjectivePhrase -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasAdjectivePhrase">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#AdjectivePhrase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasAdverbPhrase -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasAdverbPhrase">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#AdverbPhrase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasFirstSentence -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasFirstSentence">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Doc"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasFirstWord -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasFirstWord">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasLastSentence -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasLastSentence">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Doc"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasLastWord -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasLastWord">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasNextSentence -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasNextSentence">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasNextWord -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasNextWord">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasNounPhrase -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasNounPhrase">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#NounPhrase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasPrepositionPhrase -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasPrepositionPhrase">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#PrepositionPhrase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasPreviousSentence -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasPreviousSentence">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasPreviousWord -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasPreviousWord">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasRhetoricalFigure -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasRhetoricalFigure">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Doc"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#RhetoricalFigure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentence -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentence">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Doc"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasVerbPhrase -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasVerbPhrase">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#VerbPhrase"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWord -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWord">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isAdjectivalModifier -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isAdjectivalModifier">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isAdverbialClauseModifier -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isAdverbialClauseModifier">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isAdverbialModifier -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isAdverbialModifier">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isAppositionalModifier -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isAppositionalModifier">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isAuxiliary -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isAuxiliary">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isCaseMarker -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isCaseMarker">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isClausalComplement -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isClausalComplement">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isClausalSubject -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isClausalSubject">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isCompound -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isCompound">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isConjunction -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isConjunction">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isCoordinatingConjunction -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isCoordinatingConjunction">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isCopula -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isCopula">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isDeterminer -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isDeterminer">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isDirectObject -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isDirectObject">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isDiscourse -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isDiscourse">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isExpletive -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isExpletive">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isIndirectObject -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isIndirectObject">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isMarker -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isMarker">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isNominalModifier -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isNominalModifier">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isNominalSubject -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isNominalSubject">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isNounClausalModifier -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isNounClausalModifier">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isNumericModifier -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isNumericModifier">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isObliqueNominal -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isObliqueNominal">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isOpenClausalComplement -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isOpenClausalComplement">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isParataxis -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isParataxis">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isPunctuation -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isPunctuation">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isVocative -->
+
+    <owl:ObjectProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#isVocative">
+        <rdfs:domain rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdfs:range rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasFirstCharacter -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasFirstCharacter"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasLastCharacter -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasLastCharacter"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasLength -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasLength"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasNamedEntity -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasNamedEntity"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasOntologyModel -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasOntologyModel"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasPartOfSpeech -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasPartOfSpeech"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentenceSentimentNeg -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentenceSentimentNeg"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentenceSentimentNeu -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentenceSentimentNeu"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentenceSentimentPos -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentenceSentimentPos"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentenceSentimentVeryNeg -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentenceSentimentVeryNeg"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentenceSentimentVeryPos -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasSentenceSentimentVeryPos"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasString -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasString"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWordSentimentNeg -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWordSentimentNeg"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWordSentimentNeu -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWordSentimentNeu"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWordSentimentPos -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWordSentimentPos"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWordSentimentVeryNeg -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWordSentimentVeryNeg"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWordSentimentVeryPos -->
+
+    <owl:DatatypeProperty rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#hasWordSentimentVeryPos"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Adjectival -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Adjectival"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#AdjectivePhrase -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#AdjectivePhrase"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#AdverbPhrase -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#AdverbPhrase"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Colon -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Colon"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Doc -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Doc"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Litotes -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Litotes"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#NounPhrase -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#NounPhrase"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#PrepositionPhrase -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#PrepositionPhrase"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#RhetoricalFigure -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#RhetoricalFigure"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#VerbPhrase -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#VerbPhrase"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#WordNot -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#WordNot"/>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#WordUn -->
+
+    <owl:Class rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#WordUn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl##a4c26093_bcb3_4f56_9239_85806323fd77 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl##a4c26093_bcb3_4f56_9239_85806323fd77">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Litotes"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#RhetoricalFigure"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl##c6bb96c4_fbb6_4f3a_a4d8_f39db827cd13 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl##c6bb96c4_fbb6_4f3a_a4d8_f39db827cd13">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Colon"/>
+        <evokesRhetoricalFigure rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl##a4c26093_bcb3_4f56_9239_85806323fd77"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#Doc -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#Doc">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Doc"/>
+        <hasFirstSentence rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#s1"/>
+        <hasLastSentence rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#s2"/>
+        <hasRhetoricalFigure rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl##a4c26093_bcb3_4f56_9239_85806323fd77"/>
+        <hasSentence rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#s1"/>
+        <hasSentence rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#s2"/>
+        <hasOntologyModel rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</hasOntologyModel>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#adjp9 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#adjp9">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#AdjectivePhrase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#advp3 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#advp3">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#AdverbPhrase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#advp4 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#advp4">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#AdverbPhrase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np1 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np1">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#NounPhrase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np11 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np11">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#NounPhrase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np2 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np2">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#NounPhrase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np5 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np5">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#NounPhrase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np6 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np6">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#NounPhrase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#pp7 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#pp7">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#PrepositionPhrase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#s1 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#s1">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+        <hasFirstWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t1"/>
+        <hasLastWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t17"/>
+        <hasNextSentence rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#s2"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t1"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t10"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t11"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t12"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t13"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t14"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t15"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t16"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t17"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t2"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t3"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t4"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t5"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t6"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t7"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t8"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t9"/>
+        <hasSentenceSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">42.0</hasSentenceSentimentNeg>
+        <hasSentenceSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</hasSentenceSentimentNeu>
+        <hasSentenceSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">15.0</hasSentenceSentimentPos>
+        <hasSentenceSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">14.0</hasSentenceSentimentVeryNeg>
+        <hasSentenceSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasSentenceSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#s2 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#s2">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Sentence"/>
+        <hasPreviousSentence rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#s1"/>
+        <hasWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t18"/>
+        <hasSentenceSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasSentenceSentimentNeg>
+        <hasSentenceSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">95.0</hasSentenceSentimentNeu>
+        <hasSentenceSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</hasSentenceSentimentPos>
+        <hasSentenceSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasSentenceSentimentVeryNeg>
+        <hasSentenceSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasSentenceSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t1 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t1">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t2"/>
+        <hasNounPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np1"/>
+        <hasNounPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np11"/>
+        <isCompound rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t3"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">@</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">y</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HANDLE</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NNP</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">@NJ_Timothy</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t10 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t10">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasAdverbPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#advp3"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t11"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t9"/>
+        <hasVerbPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp8"/>
+        <isAdverbialModifier rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t13"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">even</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t11 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t11">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t12"/>
+        <hasPrepositionPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#pp7"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t10"/>
+        <hasVerbPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp8"/>
+        <isCaseMarker rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t13"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">i</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IN</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t12 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t12">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Adjectival"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t13"/>
+        <hasNounPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np6"/>
+        <hasPrepositionPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#pp7"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t11"/>
+        <hasVerbPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp8"/>
+        <isAdjectivalModifier rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t13"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">r</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">l</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JJ</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rural</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">98.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t13 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t13">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t14"/>
+        <hasNounPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np6"/>
+        <hasPrepositionPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#pp7"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t12"/>
+        <hasVerbPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp8"/>
+        <isObliqueNominal rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t9"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NNS</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">areas</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">4.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">92.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t14 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t14">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasAdverbPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#advp4"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t15"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t13"/>
+        <isAdverbialModifier rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t15"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">f</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">y</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fairly</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">98.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t15 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t15">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Adjectival"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t16"/>
+        <hasNounPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np5"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t14"/>
+        <isAdjectivalModifier rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t16"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">d</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JJ</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">standard</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">97.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t16 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t16">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t17"/>
+        <hasNounPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np5"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t15"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NN</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">practice</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">93.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t17 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t17">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t18"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t16"/>
+        <isPunctuation rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t4"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">!</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">!</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">.</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">!</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t18 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t18">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t17"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NUMBER</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CD</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">95.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t2 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t2">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t3"/>
+        <hasNounPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np1"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t1"/>
+        <isCompound rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t3"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">@</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HANDLE</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NNP</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">@DCBMEP</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t3 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t3">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t4"/>
+        <hasNounPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np1"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t2"/>
+        <isNominalSubject rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t4"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">t</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NNP</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Joint</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t4 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t4">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t5"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t3"/>
+        <hasVerbPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp10"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VBZ</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">stops</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t5 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t5">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t6"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t4"/>
+        <isPunctuation rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t4"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">,</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">/</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">99.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t6 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t6">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t7"/>
+        <hasNounPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#np2"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t5"/>
+        <isNominalSubject rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t9"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">v</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">t</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NNS</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visits</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t7 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t7">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t8"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t6"/>
+        <hasVerbPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp8"/>
+        <isCopula rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t9"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">b</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">e</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">VBP</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">are</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">100.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t8 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t8">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#WordNot"/>
+        <formsColon rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl##c6bb96c4_fbb6_4f3a_a4d8_f39db827cd13"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t9"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t7"/>
+        <hasVerbPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp8"/>
+        <isAdverbialModifier rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t9"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">t</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RB</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">99.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t9 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t9">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Adjectival"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#Word"/>
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#WordUn"/>
+        <formsColon rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl##c6bb96c4_fbb6_4f3a_a4d8_f39db827cd13"/>
+        <hasAdjectivePhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#adjp9"/>
+        <hasNextWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t10"/>
+        <hasPreviousWord rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t8"/>
+        <hasVerbPhrase rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp8"/>
+        <isParataxis rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#t4"/>
+        <hasFirstCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">u</hasFirstCharacter>
+        <hasLastCharacter rdf:datatype="http://www.w3.org/2001/XMLSchema#string">n</hasLastCharacter>
+        <hasLength rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</hasLength>
+        <hasNamedEntity rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</hasNamedEntity>
+        <hasPartOfSpeech rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JJ</hasPartOfSpeech>
+        <hasString rdf:datatype="http://www.w3.org/2001/XMLSchema#string">uncommon</hasString>
+        <hasWordSentimentNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">7.0</hasWordSentimentNeg>
+        <hasWordSentimentNeu rdf:datatype="http://www.w3.org/2001/XMLSchema#float">62.0</hasWordSentimentNeu>
+        <hasWordSentimentPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">27.0</hasWordSentimentPos>
+        <hasWordSentimentVeryNeg rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hasWordSentimentVeryNeg>
+        <hasWordSentimentVeryPos rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.0</hasWordSentimentVeryPos>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp10 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp10">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#VerbPhrase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp8 -->
+
+    <owl:NamedIndividual rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#-1723127667-455255924-1394957282417549313#vp8">
+        <rdf:type rdf:resource="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing_eg1.owl#VerbPhrase"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
