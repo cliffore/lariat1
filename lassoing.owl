@@ -3,10 +3,10 @@
          xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
          xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
          xmlns:owl="http://www.w3.org/2002/07/owl#"
-         xml:base="https://github.com/cliffore/lariat1/lassoing.owl"
-         xmlns="https://github.com/cliffore/lariat1/lassoing.owl#">
+         xml:base="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing.owl"
+         xmlns="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing.owl#">
 
-<owl:Ontology rdf:about="https://github.com/cliffore/lariat1/lassoing.owl"/>
+<owl:Ontology rdf:about="https://raw.githubusercontent.com/cliffore/lariat1/main/lassoing.owl"/>
 
 <owl:ObjectProperty rdf:about="#formsColon">
   <rdfs:domain rdf:resource="#Word"/>
